@@ -8,15 +8,14 @@
     "start": "next start",
     "lint": "eslint src",
     "test": "jest",
-    "test:watch": "yarn test --watch"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "test:watch": "yarn test --watch",
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*": ["yarn lint --fix", "yarn test --bail"]
+    "src/**/*": [
+      "yarn lint --fix",
+      "yarn test --bail"
+    ]
   },
   "dependencies": {
     "next": "10.1.3",
