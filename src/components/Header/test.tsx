@@ -1,10 +1,10 @@
 import { screen, render } from '@testing-library/react'
 
-import Main from '.'
+import Header from '.'
 
-describe('<Main />', () => {
+describe('<Header />', () => {
   it('It should render the heading', () => {
-    const { container } = render(<Main />)
+    const { container } = render(<Header />)
 
     expect(
       screen.getByRole('heading', { name: /next.js boilerplate/i })
@@ -14,7 +14,7 @@ describe('<Main />', () => {
   })
 
   it('It should render color correctly', () => {
-    const { container } = render(<Main />)
+    const { container } = render(<Header />)
 
     expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
   })

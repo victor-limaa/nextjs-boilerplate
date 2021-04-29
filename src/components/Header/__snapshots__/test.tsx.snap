@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> It should render the heading 1`] = `
+exports[`<Header /> It should render the heading 1`] = `
 .c0 {
   background-color: #06092b;
   color: #fff;
@@ -26,7 +26,7 @@ exports[`<Main /> It should render the heading 1`] = `
   class="c0"
 >
   <h1
-    class="styles__Title-sc-19t6oi2-1"
+    class=""
   >
     Welcome to Next.js Boilerplate!
   </h1>
