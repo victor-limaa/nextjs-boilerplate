@@ -25,10 +25,15 @@ exports[`<Header /> It should render the heading 1`] = `
 <main
   class="c0"
 >
-  <h1
+  <h2
     class=""
   >
     Welcome to Next.js Boilerplate!
-  </h1>
+  </h2>
+  <h2
+    class=""
+  >
+    Teste descrição
+  </h2>
 </main>
 `

@@ -1,34 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) boilerplate, created with TypeScript, Styled Components, EditorConfig, Eslint, Prettier, Jest, React Testing Library, Storybook, Husky and Plop to automate components creation.
 
 ## Getting Started
 
-First, run the development server:
+To create a new project with this boilerplate, you can to run in yout terminal the command:
 
 ```bash
-npm run dev
-# or
-yarn dev
+npx create-next-app -e https://github.com/victor-limaa/nextjs-boilerplate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once you run the command above, you need to change name in package.json file to your project name.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Commands
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Commands that you can use:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### dev
+
+To run your project in development environment
+
+```bash
+npx run dev
+# or
+yarn run dev
+```
+
+### build
+
+To build your project to deployment
+
+```bash
+npx run build
+# or
+yarn run build
+```
+
+### test
+
+To run test on your project
+
+```bash
+npx run test
+# or
+yarn test
+```
+
+### storybook
+
+To run Storybook
+
+```bash
+npx run storybook
+# or
+yarn storybook
+```
+
+### generate
+
+To generate a new component on your project.
+
+```bash
+npx run generate
+# or
+yarn run generate
+```
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/docs)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [Styled Components](https://styled-components.com/docs)
+- [EditorConfig](https://editorconfig.org)
+- [Eslint](https://eslint.org/docs/user-guide/getting-started)
+- [Prettier](https://prettier.io/docs/en/index.html)
+- [Jest](https://jestjs.io/docs/getting-started)
+- [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Storybook](https://storybook.js.org/docs/react/get-started/introduction)
+- [Husky](https://github.com/typicode/husky)
+- [Plop](https://plopjs.com/documentation/#getting-started)

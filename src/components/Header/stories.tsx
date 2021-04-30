@@ -3,10 +3,10 @@ import Header from '.'
 
 export default {
   title: 'Header',
-  component: Header
-  // args: {
-  //   title: 'Global Arg'
-  // }
+  component: Header,
+  args: {
+    title: 'Global Arg'
+  }
 } as Meta
 
 export const Basic: Story = (args) => <Header {...args} />
